@@ -1,13 +1,14 @@
 import react from "react";
-import Navbar from "../components/Navbar";
+import Button from '@mui/material/Button';
 
 function Home(){
     return (
         <div>
-        <Navbar />
-        <br />
-        <br />
-        <h1>This is Home</h1>
+          <h1>This is Home</h1>
+        <div>
+            <Button variant="contained" href="/admin">Admin Dashboard</Button>
+            <Button variant="contained" href="/employee">Employee Dashboard</Button>
+        </div>
         </div>
     )
     
